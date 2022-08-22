@@ -1,0 +1,18 @@
+ Method Over-Riding
+-An approach of re-implementing a parent class method under the child class with the same   signature.
+- Child & Parent Class have same method-Declaration 
+- Different Method Logic
+-OR is about changing behaviors of a Parent’s method under child class. Parent class allows the child class to consume the method and change the logic, if required.
+-We can define Multiple methods with same name and same parameters
+-Can be performed only in parent-child classes. Never be performed in same class. (Ambiguity)
+-Child class needs to take permission from the parent class for method overriding.
+-If we want to override a parent’s method under the child class, first that method should be  declared by using virtual modifier in parent class.
+-Any virtual method of the parent class can be overridden by the child if required by using the -Override modifier keyword to create Over-Riding.
+-Occurs in the inheritance
+-Static & Private methods can’t be OR, as it doesn’t occur in class.
+-Return type must be same, of Parent class override method
+-Achieve Run- time Polymorphism
+
+
+
+
